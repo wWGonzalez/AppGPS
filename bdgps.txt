@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `gps` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `direccion` varchar(100) NOT NULL,
+  `coordenadas` varchar(150) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
+
+//http://www.androfast.com/2017/09/como-guardar-la-direccion-y-coordenadas.html
